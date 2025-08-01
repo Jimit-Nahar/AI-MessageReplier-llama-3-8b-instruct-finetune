@@ -1,0 +1,94 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 600px;
+            height: 300px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            background-image: linear-gradient(#bdfdbc, #7e7299);
+        }
+        .inner-border {
+            width: 550px;
+            height: 250px;
+            border: 4px solid grey;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .company-name-heading {
+            width: 150px;
+            height: 40px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .profile {
+            height: 35px;
+            width: 35px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile img {
+            width: 33px;
+            height: 33px;
+            border-radius: 50%;
+        }
+        .option-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .option {
+            font-size: 30px;
+            width: 250px;
+            height: 40px;
+            background-color: antiquewhite;
+            border-radius: 20px;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="inner-border">
+        <div class="header">
+            <div class="company-name-heading">Name</div>
+            <div class="profile">
+                <img src="pfp_test.webp" alt="Profile Picture">
+            </div>
+        </div>
+        <div class="option-container">
+            <a href="autocompleter.html">
+                <div class="option">Auto Completer</div>
+            </a>
+            <div class="option">Any text replier</div>
+            <div class="option">Starters</div>
+        </div>
+    </div>
+</body>
+</html>

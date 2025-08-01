@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            width: 600px;
+            height: 300px;
+            border-radius: 20px;
+            background-image: linear-gradient(#bdfdbc, #7e7299);
+
+        }
+        a{   
+            color: black;   /* Make sure to change the colour of 'a' tag also */
+            text-decoration: solid;
+            
+        }
+        .inner-border {
+            padding: 20px;
+            width: 550px;
+            height: 250px;
+            border-width: 4px;
+            border-color: grey;
+            border-style: solid;
+            border-radius: 20px;
+            margin: auto;
+            top: 50%;
+            left: 50%;
+    
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+        }
+        .company-name-heading{
+            width: 150px;
+            height: 40px;
+            background-color: white;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 30px;
+            text-align: center;
+            padding: 0px;
+            margin-left: 200px;
+            
+        }
+        .profile {
+            z-index: 1;
+            height: 35px;
+            width: 35px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 165px;
+        }
+        img{
+            z-index: 2;
+            width: 33px;
+            height: 33px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 1px;
+        }
+        .option-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 180px;
+            border-width: 5px;
+            border-color: black;
+            text-align: center;
+            margin: auto;
+            
+        }
+        .option{
+            font-size: 30px;
+            width: 250px;
+            height: 40px;
+            padding: 5px;
+            background-color: antiquewhite;
+            margin: auto;
+            border-radius: 20px;
+            
+        }
+        
+
+    </style>
+
+</head>
+<body class="body-style">
+    <div class="inner-border">
+            
+            <div class="header">
+                
+                <div class="company-name-heading">
+                    Name
+                </div>
+                
+                <div class="profile">
+                        <span><img src="pfp_test.webp" alt="Profile Picture"></span>
+                </div>
+
+            </div>
+           
+           <br>
+           <br>
+
+            <div class="option-container">
+                <a href="autocompleter.html">
+                    <div class="option" >Auto Completer</div>
+                </a>
+                <div class="option">Any text replier</div>
+                <div class="option">Starters</div>
+            </div>
+
+    </div>      
+    
+</body>
+</html>
